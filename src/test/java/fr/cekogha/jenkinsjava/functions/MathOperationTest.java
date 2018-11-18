@@ -29,7 +29,7 @@ public class MathOperationTest {
 		assertEquals(mO.substraction(-2, 4), -6);
 
 		// If a & b are not commutative
-		assertNotEquals(mO.substraction(2, 4), mO.substraction(4, 2));
+		assertNotSame(mO.substraction(2, 4), mO.substraction(4, 2));
 	}
 
 }
